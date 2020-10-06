@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+//
+// ===================================================
+// FlashQ by Christian Hackert and Gernot Braehler
+// ===================================================
+// Configuration file.
+// @author		Christian Hackert <www.hackert.biz/flashq>
+// @version		FlashQ version 1.0
+// ===================================================
+//
+-->
+
+<config version="1.0" htmlParse="false">
+
+  <!-- title of the study -->
+  <item id="studyTitle">Energy Options in Bellingham</item>
+
+  <!-- text-align property(left|right) -->
+  <item id="textAlign">left</item>
+
+  <!-- shuffle cards (true|false)  -->
+  <item id="shuffleCards">true</item>
+
+  <!-- login required (true|false) -->
+  <item id="loginrequired">true</item>
+  <!-- login with common password (leave blank if not required) -->
+  <item id="Energy"></item>
+  <!-- URL to individual login script(leave blank if not required) -->
+  <item id="loginUrl"></item>
+  <!-- request mode (post|get) -->
+  <item id="loginUrlMethod"></item>
+
+  <!-- activate/deactivate optional steps (true|false) -->
+  <item id="showStep3">true</item>
+  <item id="showStep4">true</item>
+  <item id="showStep5">true</item>
+
+  <!-- HtmlQ only: disable the in-window back button -->
+  <item id="disableBackButton">false</item>
+
+ <item id="smallFont">true</item>
+
+  <!-- define form elements for step5; only displayed if showStep5 is true (delete tags if not required) -->
+  <!-- add label: <label>[STRING]</label> -->
+  <!-- add note: <note>[STRING]</note> -->
+  <!-- add input-field: <input type="[text|textarea|radio|select|checkbox|rating2|rating5|rating10]">[VALUE]</input> -->
+  <!-- optional attributes: bg, id, maxlength, restricted, required, scale  -->
+  <item id="form">
+<label>Please answer the following questions to help ensure that a range of perspectives are included in this study. The recorded personal information will not be shared in the final paper or presentation.</label>
+
+   <label>Name</label>
+	<note>Please enter your full name.</note>
+	<input type="text" required="false" maxlength="30"></input>
+
+    <label>Age</label>
+	<note>Please enter your year of birth (YYYY, eg. 1980).</note>
+	<input type="text" maxlength="4" restricted="0-9"></input>
+
+   <label>Employer</label>
+	<note>If you are employed, what is your place of employment? </note>
+	<input type="text" required="false" maxlength="40"></input>
+
+   <label>Group Affiliation</label>
+	<note>Do you affiliate with any groups or organizations that have a public stance on building electrification, natural gas, climate action, etc.? If so, what group(s) do you affiliate with?</note>
+	<input type="text" required="false" maxlength="40"></input>
+
+  <label>Is there anything else you would like to share about your feelings towards transitioning the building stock in Bellingham to use primarily electric systems and appliances?</label>
+	<input type="textarea" required="false"></input>
+
+    <note bg="false">All fields marked with an * are mandatory.</note>
+  </item>
+
+  <!-- URL for data transmission via POST/GET (leave blank if not required) -->
+  <item id="submitUrl">exe.php?do=save</item>
+  <!-- request mode (post|get) -->
+  <item id="submitUrlMethod">post</item>
+
+  <!-- data transmission via email, user must have an e-mail programm like Outlook (leave blank if not required) -->
+  <item id="submitMail">parker50@wwu.edu</item>
+ </config>

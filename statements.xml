@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+// 
+// This is the place for your statements. The maximum 
+// number of statements is theoretically unlimited, but
+// less then 50 statements are advisable.
+// If your are using German Umlauts and other special 
+// characters, make sure, that you save this XML-file 
+// as an UTF-8-document. White-space inbetween the 
+// nodes are ignored. Any white-space within the text-
+// nodes, including leading or trailing whitespace and 
+// line breaks, is preserved.
+//
+// EXAMPLE
+// Let's define some statements concerning FlashQ:
+// Statement 1: FlashQ is very usefull.
+// Statement 2: I prefer offline surveys.
+// Statement 3: FlashQ is too complicated to configure.
+//
+// Each statement requires a seperate statement-node 
+// consisting out of an opening and a closing tag. The 
+// statement itself goes between this two tags. 
+// The unique statement id is saved as an 
+// attribute called 'id'. We have three exmaple 
+// statements and we need therefore three statement-
+// nodes and one parent-node. 
+//
+// <statements version="1.0" htmlparse="false">
+//   <statement id="1">FlashQ is very usefull.</statement>
+//   <statement id="2">I prefer offline surveys.</statement>
+//   <statement id="3">FlashQ is too complicated to configure</statement>
+// </statements>
+// 
+// ===================================================
+// 
+-->
+
+<statements version="1.0" htmlParse="false">
+  <statement id="1">I do not think that it is technically feasible to replace all heating systems in the existing building stock in Bellingham with electric heat pumps.</statement>
+  <statement id="2">Building electrification is necessary to achieve carbon neutrality.</statement>
+  <statement id="3">There are so many other things to worry about that are much bigger than natural gas.</statement>
+  <statement id="4">The benefits of implementing these measures would outweigh the challenges.</statement>
+  <statement id="5">Electricity costs too much compared to natural gas.</statement>
+  <statement id="6">It is important to me to have a gas range to cook on.</statement>
+  <statement id="7">Having gas backup is important for if electricity goes out.</statement>
+  <statement id="8">I want to have the potential for energy options in my home or office.</statement>
+  <statement id="9">The consumer should be able to choose what type of energy they use for space and water heating.</statement>
+  <statement id="10">Let the market decide whether or not transitioning to electric systems and appliances makes sense.</statement>
+  <statement id="11">The City should focus on promoting incentives for installing efficient, electric appliances.</statement>
+  <statement id="12">I do not care if I use gas or electric appliances in my house, so long as I have a warm house and warm water.</statement>
+  <statement id="13">We should focus on promoting energy efficiency in our existing and future building stock.</statement>
+ <statement id="14">The transition away from fossil fuels, including natural gas, is inevitable.</statement>
+ <statement id="15">We need to source our electricity from 100% renewables before we implement the electrification measures.</statement>
+ <statement id="16">We need to prioritize a process for overcoming the cost barrier associated with the transition to primarily electric systems and appliances.</statement>
+ <statement id="17">There needs to be a deeper economic analysis to understand the true costs of implementing these measures.</statement>
+ <statement id="18">I want to be conscious of how we use our natural resources.</statement>
+ <statement id="19">Human-caused climate change is not a completely settled science.</statement>
+ <statement id="20">Climate change is a pressing issue.</statement>
+ <statement id="21">We need to prioritize reducing our greenhouse gas emissions.</statement>
+ <statement id="22">In considering these measures, Bellingham is right in line with where every city needs to curb the worst effects of climate change.</statement>
+ <statement id="23">I believe that there are enough people in the City that can afford to electrify their houses and appliances on their own without being forced.</statement>
+ <statement id="24">The City should take the lead in implementing climate policy.</statement>
+ <statement id="25">The City should prioritize transitioning their own City buildings to use only efficient electric space and water heating systems.</statement> 
+<statement id="26">I want a gas furnace in my house.</statement>
+<statement id="27">I will voluntarily install a heat pump or other efficient electric system in my house or office when I replace my existing space and water heating system.</statement>
+<statement id="28">We need to consider the viability of our natural gas providers as we transition to a more sustainable future.</statement>
+<statement id="29">I am concerned that community members will lose their jobs if these measures are adopted.</statement>
+<statement id="30">We will see a community wide benefit of job creation if we adopt these measures.</statement>
+<statement id="31">People won't want to move to Bellingham if these electrification measures are adopted.</statement>
+<statement id="32">We must prioritize making housing more affordable in our community.</statement>
+<statement id="33">The upfront capital cost is the number one barrier to installing efficient, electric heating systems, like heat pumps, for a large percentage of people.</statement>
+<statement id="34">Transitioning the building stock to use primarily electric systems and appliances would increase the cost of housing in Bellingham.</statement>
+<statement id="35">Businesses won't want to do business in Bellingham if these measures are adopted.</statement>
+<statement id="36">There needs to be deeper consideration of public input before these measures are adopted.</statement>
+<statement id="37">There are major public health risks associated with natural gas.</statement>
+<statement id="38">I support Measure B4 which calls for replacing existing natural gas space and water heating systems with electric appliances in Bellingham by 2040.</statement>
+<statement id="39">I support Measure B5 which would require that only electric systems and appliances be installed in new construction within Bellingham city limits.</statement>
+<statement id="40">I need the City to provide more information before I decide if I do or do not support the measures.</statement>
+</statements>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+//
+// In order to translate HtmlQ or to customize the texts,
+// just change the text between the opening and the closing
+// tag. The attribute 'id' is the name of the variable
+// and must remain unchanged.
+//
+// You can use HTML-tags, but you have to braces instead
+// of the normal angle brackets, otherwise the import will fail.
+// Example: {b}bold{/b}
+//
+// If your are using German Umlauts and other special
+// characters, make sure, that you save this XML-file
+// as an UTF-8-document. White-space inbetween the
+// nodes are ignored. Any white-space within the text-
+// nodes, including leading or trailing whitespace and
+// line breaks, is preserved.
+//
+// ===================================================
+//
+-->
+
+<language version="1.0" htmlParse="true">
+
+  <!-- misc -->
+  <item id="btnContinue">Continue...</item>
+  <item id="btnclose">Close</item>
+  <item id="btnHelp">Help me!</item>
+  <item id="btnAgreement">Agree</item>
+  <item id="btnNeutral">Neutral</item>
+  <item id="btnDisagreement">Disagree</item>
+  <item id="btnTransfer">Submit data</item>
+  <item id="btnMail">Send via email</item>
+  <item id="btnPrint">Print data</item>
+  <item id="btnExit">Exit</item>
+  <item id="selectItem">Please select...</item>
+
+  <!-- Warning when user is trying to leave the page (this item was added for HtmlQ) -->
+  <item id="leaveSiteWarning">Your answers will be lost.</item>
+
+  <!-- HtmlQ only: In-App Back Button -->
+  <item id="backButton">Back</item>
+  <item id="fillInRequiredFields">Please fill in all required fields.</item>
+
+  <!-- errors -->
+  <item id="errorHead">Error!</item>
+  <item id="errorWindowTooSmall">Please maximize your browser for using this application.</item>
+
+  <!-- welcome screen (leave blank to skip screen) -->
+  <item id="welcomeHead">Welcome!</item>
+  <item id="welcomeText">{b}Thank you for your participation in this study. Upon completion of this activity, your name will be entered into a drawing for one of three $50 Amazon e-gift cards.{/b}{br}{br}The following activity is part of a larger study to document how Bellingham stakeholders feel about two proposed measures that were recommended to the city of Bellingham in the 2019 Climate Action Task Force Report. If implemented, the recommended measures would require that gas space and water heating systems be updated to efficient electric systems, such as heat pumps, in the existing building stock by 2040 and that only electric systems and appliances be installed in new construction. These measures would gradually phase out the majority of natural gas systems and appliances in the City. These measures, described in greater detail on the following page, are currently under review by the City and have not been formally adopted at this time.{br}{br}Please click on the continue-button.</item>
+
+  <!-- user login, only displayed if access is restricted (see config-file) -->
+  <item id="loginHead">User code</item>
+  <item id="loginText">Please enter your user code.</item>
+  <item id="loginFormHeader">User code</item>
+  <item id="loginNoInput">Please insert your user code.</item>
+  <item id="loginInvalidInput">User code invalid</item>
+  <item id="loginNoConnection">Connection to server failed. Please try again.</item>
+
+  <!-- introduction (leave blank to skip popup) -->
+  <item id="introHead">Introduction</item>
+  <item id="introText">This study, 'Energy Options in Bellingham' is about building electrification in Bellingham, Washington. If you are a resident of Bellingham, work in Bellingham, or do regular business in Bellingham, I am interested in your attitude towards Measures B4 and B5, described below, which have been recommended to the City and have not been adopted at this time.{br}{br}{b}Background:{/b} In 2018, Bellingham’s City Council adopted Resolution 2018-06, which committed the City to a goal of reaching 100% renewable energy for community and municipal energy use, including heating and transportation, by 2035. In 2019, the City formed a Climate Action Plan Task Force to develop recommendations for actions the City can take to achieve this target. In late 2019, the Climate Action Task Force Report outlined a series of recommendations that would reduce emissions in the sectors of transportation, land use, buildings, and energy supply. Measures B4 and B5, which are the focus of this study, are outlined below:{br}{br}{i}Measure B4 - Electrify Existing Buildings:{/i} Starting immediately, when a space or water heating system is replaced within an existing building, it must be replaced with electric heat pump technology, or electric technology of an equivalent or better efficiency. Any natural gas space and water heating systems that haven’t been replaced with electric heat pumps or equivalent systems need to be replaced by 2040.{br}{br}For existing buildings, the recommended electrification requirement does not apply to gas-burning fireplaces, parlor stoves, cook stoves, clothes dryers or other devices aside from primary space heating and water heating equipment.{br}{br}{i}Measure B5 - Electrify New Buildings:{/i} Starting immediately, all new buildings must use only electric systems and appliances. Space and water heating systems must be electric heat pumps, or electric technology of an equivalent or better efficiency. Exceptions may be allowed in limited circumstances.{br}{br}{i}The City is currently reviewing these recommendations.{/i}{br}{br}{b}Study:{/b} I am conducting a study to see how people feel about the two measures outlined above. Please help me by participating in the following activity and letting me know your perspective on the topic.{br}{br}If you choose to participate in the activity, you will sort a series of statements related to the study topic onto a distribution grid by ranking statements based off of those you most agree to most disagree with. These statements were collected during interviews completed in an earlier phase of the study. This activity will take between 30-45 minutes. After completing the sorting activity, you will have the opportunity to submit a written explanation to further detail why you ranked statements on either extreme end of the distribution grid.{br}{br}Please continue to the next screen if you wish to participate in this study.</item>
+
+  <!-- consent (leave blank to skip popup) -->
+  <item id="consentHead">Consent</item>
+  <item id="consentText">I am requesting your participation in an online activity that is part of a larger study titled 'Building Electrification in Bellingham'. Participation is entirely voluntary. Please read this form carefully and email Sarah Parker, a graduate student as Western Washington University (WWU) and the researcher directing the study, at parker50@wwu.edu with questions about anything that is not clear. When all of your questions have been answered, click "Continue..." if you consent to participate in this study or navigate away from this page if you do not wish to participate. This process is called "informed consent".{br}{br}{b} Benefit:{/b} Upon completion of the online activity, you will be entered into a drawing for one of three $50 Amazon e-gift cards. Additionally, your participation will be valuable to this research and could provide insight as the city of Bellingham decides whether or not to move forward with Measures B4 and B5, which would require that only electric space and water heating systems be installed in Bellingham.{br}{br}{b}Study Procedures: {/b}If you choose to participate in this activity, you will sort a series of statements related to the study topic into piles based off of those you agree with, disagree with, and feel neutral about. Next, you'll be asked to further sort the statements onto a distribution grid by ranking statements based off of those you most agree to most disagree with. These statements were collected during interviews that were completed in an earlier phase of the study. This activity will take between 30-45 minutes. After completing the sorting activity, you will have the opportunity to submit a written explanation to further detail why you ranked statements on either extreme end of the distribution grid.{br}{br}{b} Risks and Privacy: {/b} I will take every precaution to protect your information, though no guarantee of security can be absolute. I believe the chances of you being identified are low due to the protections in place for your privacy. Your information collected as part of the research will not be used or distributed for future research studies.{br}{br}You will be prompted to fill out a brief demographic form after the activity. Your identifying information, including contact and demographic information, will be kept on file for up to two years after the point of collection. You will be given an ID number for this study, which will be used to label your data, including the completed distribution activity. The link between this ID number and your name and other identifying information will be stored separately. Your personal information will not be revealed during the analysis or final report.{br}{br}You may withdraw from this study up until the study ends by submitting a request to withdraw your data to parker50@wwu.edu. If you withdraw, the study will keep your data. After the study ends, we will no longer be able to link you with your data.{br}{br}If you have any questions about your participation or your rights as a research participant, you can contact the Western Washington University Office of Research and Sponsored Programs (RSP) at compliance@wwu.edu or (360) 650-2146. If during or after participation in this study you suffer from any adverse effects as a result of participation, please notify the researcher directing the study, Sarah Parker (parker50@wwu.edu), or the WWU RSP.{br}{br}{b} Consent: {/b} By clicking "Continue...", you are confirming that you have read this form, that you understand the tasks involved, and that you are consenting to participate. By clicking "Continue...", you are also confirming that you are 18 years of age or older. You may copy and save this consent form for your records.{br}{br}Please maximize your browser window and click on the continue-button to start the survey.</item>
+
+  <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
+  <item id="step1Head">Step 1 of 5</item>
+  <item id="step1Text">Read the following statements carefully and split them up into three piles: a pile for statements you tend to disagree with, a pile for cards you tend to agree with, and a pile for the rest.{br}{br}You can either drag the cards into one of the three piles or press 1, 2, 3 on your keyboard. Changes can be made later.{br}{br}If you want to read this instruction a second time, press the help-button at the bottom left corner.</item>
+
+  <!-- step2: sorting (leave blank to skip popup) -->
+  <item id="step2Head">Step 2 of 5</item>
+  <item id="step2Text">Take the cards from the "AGREE"-pile and read them again. You can scroll through the statements by using the scroll bar. Next, select the two statements you most agree with and place them on the right side of the score sheet below the "+4".{br}{br}Now read the cards in the "DISAGREE"-pile again. Just like before, select the two statements you most disagree with and place them on the left side of the score sheet below the "-4".{br}{br}Next, select the statements you second most agree/disagree with and place them under "+1"/"-1". Follow this procedure for all cards in the "AGREE"- and "DISAGREE"-pile.{br}{br}Finally, read the "NEUTRAL"-cards again and arrange them in the remaining open boxes of the score sheet.</item>
+
+  <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
+  <item id="step3Head">Step 3 of 5</item>
+  <item id="step3Text">Now you have placed all cards on the score sheet. Please go over your distribution once more and shift cards if you want to. {br}{br}The resulting distribution should reflect how you think and feel about building electrification in Bellingham, and specifically, recommended Measures B4 and B5 which would require the use of electric space and water heating systems and would phase natural gas out of the City.</item>
+
+  <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
+  <item id="step4Head">Step 4 of 5</item>
+  <item id="step4Text">Please explain why you agree most or disagree most with the following statements you have placed below "+4" or "-4".{i}</item>
+
+  <!-- step5: dditional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
+  <item id="step5Head">Step 5 of 5</item>
+  <item id="step5Text">Finally, please answer the following questions regarding your background.</item>
+
+  <!-- data transfer, only displayed if submitUrl is not blank (see config-file) -->
+  <item id="transferHead">Submit Data</item>
+  <item id="transferText">You've finished the survey. Please submit your data now.</item>
+  <item id="transferFailed">Data submission failed. Please try again or email your results to parker50@wwu.edu.</item>
+  <item id="transferOk">Thank you for unsing FlashQ. We would appreciate if you could send us feeddback about this application (bugs, ideas, suggestion, etc.).{br}{br}Christian Hackert{br}{a href="http://www.hackert.biz/flashq" target="_blank"}{u}www.hackert.biz/flashq{/u}{/a}.{br}{br}You can now close your browser window.</item>
+
+  <!-- send data via mail, only displayed if submitUrl is blank (see config-file) -->
+  <item id="mailHead">Submit Data</item>
+  <item id="mailText">You can either submit your data either via email or post. In the former case you'll need an email client like Outlook, in the latter a printer.</item>
+
+  <!-- e-mail-body -->
+  <item id="mailBody">Thank you for participating in our survey. Please do not modify the following text:</item>
+
+  <!-- print out -->
+  <item id="printoutText">Somebody{br}Some street 100{br}Some city{br}{br}Please send this printout to address mentioned above. Thanks for you help.</item>
+
+</language>
